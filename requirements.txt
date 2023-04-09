@@ -8,4 +8,4 @@ Werkzeug==1.0.1
 flask 
 flask_restful 
 flask_cors 
-opencv-python
+opencv-python-headless
