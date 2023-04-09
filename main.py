@@ -10,7 +10,7 @@ CORS(app)
 def index():
     return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
 
-@app.post('/upload')
+@app.route('/upload', methods=['POST'])
 def upload():
     if 'file' not in request.files:
         return jsonify({"error": "No file attached"})
