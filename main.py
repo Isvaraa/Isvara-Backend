@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_restful import Resource, Api
-from opencv-pyhton import cv2
+import opencv
 from flask_cors import CORS
 
 app = Flask(__name__)
