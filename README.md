@@ -1,16 +1,12 @@
----
-title: Isvara Server
-description: Server implementing harcascades to give result as a distance of the person from the camera the image is shot from after recieving the image
-tags:
-  - python
-  - flask
----
 
+# Isvara Server
+
+Server implementing harcascades to give result as a distance of the person from the camera the image is shot from after recieving the image
 
 ## ✨ Features
 
 - Python
-- Haarcascades Classifier
+- Haar Cascades Classifier
 - Flask
 
 ## 💁‍♀️ How to use
